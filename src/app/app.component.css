@@ -1,0 +1,31 @@
+:root {
+    --primary-color: blue;
+    transition: all 0.5s ease-in-out;
+}
+
+.heading  {
+    font-family: 'Courier New', Courier, monospace;
+    color:var(--primary-color);
+}
+.centered-content {
+    display: grid;
+    justify-content: center;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid var(--primary-color,black);
+    outline: none;
+    transition: all 0.5s ease-in-out;
+
+}
+input:focus {
+    box-shadow: black 2px 2px 2px;
+}
+
+img {
+    width: 32px;
+    height:32px;
+    opacity: 0;
+    margin-right: -8px;
+}
